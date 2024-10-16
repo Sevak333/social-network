@@ -1,0 +1,66 @@
+.gradient-custom-3 {
+  /* fallback for old browsers */
+  background: #84fab0;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+}
+
+.gradient-custom-4 {
+  /* fallback for old browsers */
+  background: #84fab0;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+}
+
+nav {
+  display: flex;
+  background: black;
+  padding: 20px;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.active {
+  color: mediumpurple;
+}
+
+.stgs-item-cont {
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 300px;
+  padding: 20px;
+}
+.stgs-item-cont h4 {
+  color: rgba(29, 3, 132, 0.537);
+  font-weight: bold;
+}
+
+.stgs-btn {
+  border-radius: 5px;
+  margin-top: 5px;
+  color: white;
+  background-color: green;
+  border-color: black;
+}
+
+.stgs-input {
+  margin-bottom: 3px;
+  border-radius: 5px;
+  border-color : rgba(30, 67, 2, 0.738)
+}

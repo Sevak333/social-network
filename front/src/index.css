@@ -28,7 +28,7 @@ nav {
 }
 
 nav a {
-  color: white;
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
@@ -47,7 +47,7 @@ nav a {
   padding: 20px;
 }
 .stgs-item-cont h4 {
-  color: rgba(29, 3, 132, 0.537);
+  color: rgba(64, 51, 113, 0.537);
   font-weight: bold;
 }
 

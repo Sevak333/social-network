@@ -31,3 +31,8 @@ export const apiUpdatePassword = async (body: userPasswords): Promise<IResponse>
     const response = await Axios.patch("/update/password", body)
     return response.data
 }
+
+export const LogOut = async (): Promise<IResponse> => {
+    const response = await Axios.post("/logout")
+    return response.data
+}

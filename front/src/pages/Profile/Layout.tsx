@@ -17,12 +17,19 @@ export const Layout = () => {
             })
     }, [])
 
+    const handleLogOut = () => {
+        document.cookie = ""
+        setAcount(null)
+        navigate("/login")
+    }
+
     return acount && <>
         <nav>
             <NavLink to="/profile" end> Profile </NavLink>
             <NavLink to="/profile/settings" > Settings </NavLink>
             <NavLink to="/profile/followers"> Followers </NavLink>
             <NavLink to="/profile/photos"> Photos </NavLink>
+            <NavLink onClick={handleLogOut}>LogOut</NavLink>
         </nav>
 
         <div style={{ padding: 20 }}>
